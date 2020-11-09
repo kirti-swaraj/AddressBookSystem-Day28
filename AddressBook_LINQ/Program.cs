@@ -21,6 +21,8 @@ namespace AddressBook_LINQ
             //UC 5
             AddressBookDataTable.DeleteContact("Virendra", "Sehwag");
             AddressBookDataTable.DisplayTableContents();
+            //UC 6
+            AddressBookDataTable.RetrievePersonFromACityOrState("Mumbai", "Karnataka");
         }
     }
 }
