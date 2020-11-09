@@ -14,6 +14,10 @@ namespace AddressBook_LINQ
         {
             Console.WriteLine("Welcome to address book manager!");
             AddressBookDataTable.AddDataIntoTable();
+            AddressBookDataTable.DisplayTableContents();
+            //UC 4
+            AddressBookDataTable.EditExistingContact("Virendra", "Sehwag", 136119);
+            AddressBookDataTable.DisplayTableContents();
         }
     }
 }
