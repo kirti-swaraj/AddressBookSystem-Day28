@@ -12,7 +12,7 @@ namespace AddressBook_LINQ
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to address book manager!");
+            Console.WriteLine("Welcome to address book manager!\n");
             AddressBookDataTable.AddDataIntoTable();
             AddressBookDataTable.DisplayTableContents();
             //UC 4
@@ -23,6 +23,8 @@ namespace AddressBook_LINQ
             AddressBookDataTable.DisplayTableContents();
             //UC 6
             AddressBookDataTable.RetrievePersonFromACityOrState("Mumbai", "Karnataka");
+            //UC 7
+            AddressBookDataTable.GetCountOfContactInCityOrState();
         }
     }
 }
