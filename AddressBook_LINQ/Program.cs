@@ -25,6 +25,8 @@ namespace AddressBook_LINQ
             AddressBookDataTable.RetrievePersonFromACityOrState("Mumbai", "Karnataka");
             //UC 7
             AddressBookDataTable.GetCountOfContactInCityOrState();
+            //UC 8
+            AddressBookDataTable.RetrieveRecordsSortedByNameForAGivenCity("Bengaluru");
         }
     }
 }
